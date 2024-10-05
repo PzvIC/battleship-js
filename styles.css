@@ -1,0 +1,112 @@
+html {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+body{
+    margin: 0 auto;
+    width: 80%;
+}
+
+#button{
+    margin-bottom: 1rem;
+}
+
+#rules_container{
+    border: 1px solid rgba(138, 137, 137, 0.993);
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+#rules_container h2{
+    margin-top: 0;
+}
+
+.rules{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+#table {
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    grid-template-rows: repeat(10, 50px);
+}
+
+#column_1 {
+    display: grid;
+    grid-template-columns: 50px;
+    grid-template-rows: 50px;
+    margin-bottom: 20px;
+}
+
+#row_1 {
+    display: grid;
+    grid-template-columns: 50px;
+    grid-template-rows: 50px;
+    margin-bottom: 20px;
+}
+
+#column_2 {
+    display: grid;
+    grid-template-columns: repeat(2, 50px);
+    grid-template-rows: 50px;
+    margin-bottom: 20px;
+}
+
+#row_2 {
+    display: grid;
+    grid-template-columns: 50px;
+    grid-template-rows: repeat(2, 50px);
+    margin-bottom: 20px;
+}
+
+#column_3 {
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    grid-template-rows: 50px;
+    margin-bottom: 20px;
+}
+
+#row_3 {
+    display: grid;
+    grid-template-columns: 50px;
+    grid-template-rows: repeat(3, 50px);
+    margin-bottom: 20px;
+}
+
+#column_4 {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: 50px;
+    margin-bottom: 20px;
+}
+
+#row_4 {
+    display: grid;
+    grid-template-columns: 50px;
+    grid-template-rows: repeat(4, 50px);
+    margin-bottom: 20px;
+}
+
+#table{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.invisible{
+    display: none;
+}
+
+.hit {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.555);
+
+}
