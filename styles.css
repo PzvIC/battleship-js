@@ -5,26 +5,26 @@ html {
     font-size: 16px;
 }
 
-body{
+body {
     margin: 0 auto;
     width: 80%;
 }
 
-#button{
+#button {
     margin-bottom: 1rem;
 }
 
-#rules_container{
+#rules_container {
     border: 1px solid rgba(138, 137, 137, 0.993);
     padding: 2rem;
     margin-bottom: 2rem;
 }
 
-#rules_container h2{
+#rules_container h2 {
     margin-top: 0;
 }
 
-.rules{
+.rules {
     display: flex;
     gap: 2rem;
     justify-content: space-between;
@@ -92,15 +92,16 @@ body{
     margin-bottom: 20px;
 }
 
-#table{
+#table {
     width: 50%;
     margin: 0 auto;
     margin-bottom: 2rem;
 }
 
-.invisible{
+.invisible {
     display: none;
 }
+
 
 .hit {
     text-transform: uppercase;
@@ -109,4 +110,10 @@ body{
     color: white;
     background-color: rgba(255, 0, 0, 0.555);
 
+}
+
+.footer{
+    font-size: 1.2rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
 }
